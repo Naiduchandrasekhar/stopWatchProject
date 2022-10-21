@@ -1,0 +1,75 @@
+/* Write CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  width: 100vw;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    min-height: 100vh;
+    background-size: cover;
+    width: 100vw;
+  }
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  min-height: 60vh;
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.imageAndTimer {
+  display: flex;
+  align-items: center;
+}
+
+.headingTimer {
+  font-size: 18px;
+  margin-left: 7px;
+}
+
+.button {
+  margin: 5px;
+  border-width: 0px;
+  color: #ffffff;
+  font-size: 13px;
+  width: 50px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #1db05f;
+}
+
+.red {
+  background-color: #ef0d36;
+}
+
+.yellow {
+  background-color: #eaa800;
+}
